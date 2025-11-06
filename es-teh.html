@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEMON ICE TEA</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    html,
+    body {
+        padding: 3rem 2%;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 15px;
+        display: flex;
+    }
+
+    .content {
+        padding: 2rem;
+    }
+
+    div.kolom-kiri {
+        margin-left: 9 0px;
+        margin-top: 50px;
+        border: none;
+        float: left;
+        width: 400px;
+        border: 1px solid white;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .kolom-kanan {
+        float: right;
+        width: 35%;
+        margin-top: 60px;
+    }
+
+    div.kolom-kiri img {
+        align-items: center;
+        padding: 5px;
+        width: 100%;
+        height: auto;
+    }
+
+    .desc {
+        border-bottom: 1px solid #fff;
+    }
+
+    .desc h1 {
+        font-weight: 300;
+        font-size: 52px;
+        color: #eca457;
+        letter-spacing: -2px;
+    }
+
+    .desc p {
+        font-size: 16px;
+        font-weight: 300;
+        color: white;
+        line-height: 24px;
+    }
+
+    .harga {
+        line-height: 4;
+        align-items: center;
+    }
+
+    .harga span {
+        font-size: 30px;
+        font-weight: 300;
+        color: #fff;
+        margin-right: 20px;
+    }
+
+    .buy {
+        background-color: #eca457;
+        border-radius: 6px;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 1rem 5%;
+        transition: all .3s;
+    }
+
+    .buy:hover {
+        background-color: #ce8f4b;
+    }
+
+    .close {
+        position: relative;
+        float: right;
+        color: #eca457;
+        font-size: 50px;
+        transition: 0.3s;
+        z-index: 9;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #ce8f4b;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* Media Queries */
+
+
+    /* Laptop */
+    @media (max-width: 1366px) {
+        .content {
+            padding: 3rem;
+        }
+    }
+</style>
+
+<body>
+    <!-- NAVBAR START -->
+    <nav class="navbar">
+        <a href="index.html" class="navbar-logo">
+            <img src="img/bg1.png" width="100" height="100"></a>
+        <div class="navbar-nav">
+            <a href="index.html">Home</a>
+            <a class="active" href="produk.html">Product</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+    <a href="produk.html" class="close">&times;</a>
+    <div class="content">
+        <div class="kolom-kiri">
+            <a target="_blank" href="img/es-teh.png">
+                <img src="img/es-teh.png" alt="LEMON-TEA">
+            </a>
+        </div>
+        <div class="kolom-kanan">
+            <div class="desc">
+                <h1>LEMON ICE TEA</h1>
+                <p>Lemon Ice tea adalah varian teh yang dibuat dengan perasaan jeruk nipis, kemudian disajikan dengan
+                    irisan
+                    lemon Dan Es batu</p>
+                <div class="harga">
+                    <span>Rp 20.000</span>
+                    <br>
+                    <a href="https://wa.me/6285773383665" target="_blank"  class="buy">BELI SEKARANG</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

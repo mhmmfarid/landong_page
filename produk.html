@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCT</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    .desk {
+        padding: 9rem 5%;
+    }
+
+    div.gallery {
+        margin: 15px;
+        margin-left: 55px;
+        border: none;
+        float: left;
+        width: 180px;
+        line-height: 1;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    div.gallery:hover {
+        border: 1px solid black;
+        box-shadow: 0px 0px 10px #eca457;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        text-transform: capitalize;
+        padding: 5px;
+        text-align: center;
+    }
+
+    /* Media Queries */
+
+
+    /* Laptop */
+    @media (max-width: 1366px) {
+
+        .desk {
+            padding: 9rem 2.5%;
+        }
+
+        div.gallery {
+            line-height: 1.5;
+        }
+    }
+    .top-left {
+     position: absolute;
+    background-color: red;
+    padding: 5px 2%;
+    color: white;
+    border-radius: 5px;
+}
+</style>
+
+<body>
+
+    <!-- NAVBAR START -->
+    <nav class="navbar">
+        <a href="index.html" class="navbar-logo">
+            <img src="img/bg1.png" width="100" height="100"></a>
+        <div class="navbar-nav">
+            <a href="index.html">Home</a>
+            <a class="active" href="produk.html">Product</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <section class="desk">
+        <div class="gallery">
+            <div class="top-left">
+                <i class="fa-solid fa-medal"></i>
+            </div>
+            <a target="_self" href="burger.html">
+                <img src="img/burger.png" alt="BURGER" width="600" height="400">
+            </a>
+            <div class="desc">BURGER<br> Rp 30.000</div>
+        </div>
+        <div class="gallery">
+            <a href="kebab.html" target="_self">
+                <img src="img/kebab.png" alt="KEBAB" width="600" height="400">
+            </a>
+            <div class="desc">KEBAB<br>Rp 20.000</div>
+        </div>
+        <div class="gallery">
+            <div class="top-left"><i class="fa-solid fa-tags"></i></div>
+            <a href="pizza.html" target="_self">
+                <img src="img/pizza.png" alt="PIZZA" width="600" height="400">
+            </a>
+            <div class="desc">PIZZA<br>Rp 99.999</div>
+        </div>
+        <div class="gallery">
+            <a href="kentang.html" target="_self">
+                <img src="img/kentang.png" alt="FRENCH-FRIES" width="600" height="400">
+            </a>
+            <div class="desc">FRENCH FRIES<br>Rp 20.000</div>
+        </div>
+        <div class="gallery">
+            <div class="top-left"><i class="fa-solid fa-tags"></i></div>
+            <a href="fc.html" target="_self">
+                <img src="img/fc.png" alt="FRIED-CHICKEN" width="600" height="400">
+            </a>
+            <div class="desc">FRIED CHICKEN<br>Rp 69.999</div>
+        </div>
+        <div class="gallery">
+            <a target="_self" href="es-jeruk.html">
+                <img src="img/es-jeruk.png" alt="ES-JERUK" width="600" height="400">
+            </a>
+            <div class="desc">ORANGE JUICE<br>Rp 10.000</div>
+        </div>
+        <div class="gallery">
+            <div class="top-left"><i class="fa-solid fa-tags"></i></div>
+            <a target="_self" href="espresso.html">
+                <img src="img/espresso.png" alt="COFFE-ESPRESSO" width="600" height="400">
+            </a>
+            <div class="desc">COFFE ESPRESSO<br>Rp 49.999</div>
+        </div>
+        <div class="gallery">
+            <div class="top-left">
+                <i class="fa-solid fa-medal"></i>
+            </div>
+            <a target="_self" href="boba.html">
+                <img src="img/boba.png" alt="BOBA" width="600" height="400">
+            </a>
+            <div class="desc">BOBA<br>Rp 20.000</div>
+        </div>
+        <div class="gallery">
+            <a target="_self" href="es-teh.html">
+                <img src="img/es-teh.png" alt="LEMON-TEA" width="600" height="400">
+            </a>
+            <div class="desc">LEMON ICE TEA<br>Rp 30.000</div>
+        </div>
+        <div class="gallery">
+            <div class="top-left"><i class="fa-solid fa-tags"></i></div>
+            <a target="_self" href="milkshake.html">
+                <img src="img/milkshake.png" alt="milkshake" width="600" height="400">
+            </a>
+            <div class="desc">MILKSHAKE<br>Rp 29.999</div>
+        </div>
+    </section>
+</body>
+
+</html>
